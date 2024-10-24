@@ -1,0 +1,59 @@
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #232428;;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 30px;
+  background-color: #494949;
+  color: #fff;
+  border: none;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px; 
+}
+
+.socials i {
+  color: #843bed;
+  font-size: 32px;  
+}
+
+.infomore {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0px; 
+}
+
+.email {
+  background: linear-gradient(90deg, #853ec8 0%, #4215c9 100%);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.email:hover,
+.link:hover {
+  transform: scale(1.05);
+}
+
+.email:focus,
+.link:hover {
+  outline: none;
+}

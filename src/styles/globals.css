@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
+:root {
+  --background: #16181d;
+  --card: #232428;
+  --body: #010b0e;
+  --prime: #843bed;
+  --textcolor: #fff;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #111;
+  background-color: var(--background);
   color: #fff;
 }
 
@@ -11,6 +19,10 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5{ 
+h1,
+h2,
+h3,
+h4,
+h5, p {
   margin: 0px;
 }
